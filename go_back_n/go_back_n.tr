@@ -1,0 +1,38 @@
+0.10000000000000001 : Go-Back-N transmission started
+0.10000000000000001 : Sending packet 0
+0.10000000000000001 : Sending packet 1
+0.10000000000000001 : Packet 2 lost during transmission
+0.10000000000000001 : Sending packet 3
+0.15000000000000002 : Receiver accepted packet 0
+0.15000000000000002 : Receiver accepted packet 1
+0.15000000000000002 : Receiver discarded packet 3 (out of order)
+0.20000000000000001 : ACK received for packet 0
+0.20000000000000001 : Sending packet 4
+0.20000000000000001 : ACK received for packet 1
+0.20000000000000001 : Sending packet 5
+0.20000000000000001 : Duplicate ACK received: 1
+0.25 : Receiver discarded packet 4 (out of order)
+0.25 : Receiver discarded packet 5 (out of order)
+0.29999999999999999 : Duplicate ACK received: 1
+0.29999999999999999 : Duplicate ACK received: 1
+1 : TIMEOUT: Go-Back-N retransmission started
+1 : Retransmitting packet 2
+1 : Retransmitting packet 3
+1 : Retransmitting packet 4
+1 : Retransmitting packet 5
+1.05 : Receiver accepted packet 2
+1.05 : Receiver accepted packet 3
+1.05 : Receiver accepted packet 4
+1.05 : Receiver accepted packet 5
+1.1000000000000001 : ACK received for packet 2
+1.1000000000000001 : Sending packet 6
+1.1000000000000001 : ACK received for packet 3
+1.1000000000000001 : Sending packet 7
+1.1000000000000001 : ACK received for packet 4
+1.1000000000000001 : ACK received for packet 5
+1.1500000000000001 : Receiver accepted packet 6
+1.1500000000000001 : Receiver accepted packet 7
+1.2000000000000002 : ACK received for packet 6
+1.2000000000000002 : ACK received for packet 7
+1.2000000000000002 : All packets acknowledged successfully
+1.2000000000000002 : Go-Back-N simulation completed

@@ -1,0 +1,17 @@
+PROJECT: Network Performance Analysis of University E-Learning System
+
+Simulation: Three-node network
+Topology: Student 1 -> Router -> Server
+Traffic: UDP + CBR
+Bandwidth: 2 Mbps
+Link Delay: 5 ms per link
+Packet Size: 512 bytes
+Traffic Interval: 0.1 seconds
+Simulation Duration: 5 seconds
+
+Packets Received: 40
+Data Received: 20480 bytes
+Packet Delivery Ratio: 100%
+Packet Loss Ratio: 0%
+Throughput: 40.96 Kbps
+Average End-to-End Delay: 14.096 ms

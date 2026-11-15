@@ -1,0 +1,18 @@
+===== GO-BACK-N ARQ RESULTS =====
+
+Total initial transmission attempts: 8
+Successfully transmitted initially: 7
+Packets retransmitted: 4
+Packets deliberately lost: 1
+Packets accepted by receiver: 8
+Out-of-order packets discarded: 3
+ACKs received: 8
+Duplicate ACKs: 3
+Timeouts: 1
+Total packets delivered: 8
+
+Observation:
+Packet 2 was deliberately lost during its initial transmission.
+The receiver discarded subsequent out-of-order packets.
+After a timeout, the sender retransmitted all outstanding packets.
+The receiver successfully accepted all 8 packets.

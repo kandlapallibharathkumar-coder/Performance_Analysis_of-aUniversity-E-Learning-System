@@ -1,0 +1,24 @@
+0.10000000000000001 Packet 1 accepted. Queue size: 1
+0.20000000000000001 Packet 2 accepted. Queue size: 2
+0.29999999999999999 Packet 3 accepted. Queue size: 3
+0.40000000000000002 Packet 4 accepted. Queue size: 4
+0.5 Packet 5 dropped. Bucket is full.
+0.5 Packet transmitted. Queue size: 3
+0.59999999999999998 Packet 6 accepted. Queue size: 4
+1 Packet transmitted. Queue size: 3
+1.2 Packet 7 accepted. Queue size: 4
+1.3 Packet 8 dropped. Bucket is full.
+1.3999999999999999 Packet 9 dropped. Bucket is full.
+1.5 Packet transmitted. Queue size: 3
+2 Packet transmitted. Queue size: 2
+2.5 Packet 10 accepted. Queue size: 3
+2.5 Packet transmitted. Queue size: 2
+3 Packet 11 accepted. Queue size: 3
+3 Packet transmitted. Queue size: 2
+3.1000000000000001 Packet 12 accepted. Queue size: 3
+3.5 Packet transmitted. Queue size: 2
+4 Packet 13 accepted. Queue size: 3
+4 Packet transmitted. Queue size: 2
+4.5 Packet transmitted. Queue size: 1
+5 Packet transmitted. Queue size: 0
+6 Simulation completed

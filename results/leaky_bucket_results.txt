@@ -1,0 +1,16 @@
+===== LEAKY BUCKET RESULTS =====
+
+Total incoming packets: 13
+Packets accepted: 10
+Packets dropped: 3
+Packets transmitted: 10
+Packets remaining: 0
+Bucket capacity: 4 packets
+Leakage interval: 0.5 seconds
+
+Observation:
+The Leaky Bucket algorithm controls outgoing traffic
+at a constant rate. When the bucket reaches its
+maximum capacity, additional incoming packets are
+dropped. All accepted packets were transmitted
+successfully in this simulation.

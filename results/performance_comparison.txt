@@ -1,0 +1,23 @@
+PROJECT: Network Performance Analysis of University E-Learning System
+
+PERFORMANCE COMPARISON
+
+Metric                  Two-Node    Three-Node    Five-Student
+--------------------------------------------------------------
+Packets Received        40          40            2247
+Packets Dropped         0           0             8
+PDR (%)                 100         100           99.65
+PLR (%)                 0           0             0.35
+Throughput (Kbps)       40.96       40.96         1022.63
+Average Delay (ms)      14.096      14.096        134.446
+
+OBSERVATIONS:
+
+1. The two-node and three-node simulations completed without packet loss.
+2. The five-student simulation experienced packet drops.
+3. The shared 1 Mbps router-to-server link became congested.
+4. The five-student simulation showed a higher average delay.
+5. Increasing network load affected packet delivery and end-to-end delay.
+
+NOTE:
+All average delay values use the recorded end-to-end delay calculations.

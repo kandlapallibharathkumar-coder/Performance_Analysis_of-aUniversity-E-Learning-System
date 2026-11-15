@@ -1,0 +1,22 @@
+PROJECT: Network Performance Analysis of University E-Learning System
+
+Simulation: Five-student network
+Topology: Five Students -> Router -> Server
+Traffic: UDP + CBR
+Student-to-Router Bandwidth: 2 Mbps
+Router-to-Server Bandwidth: 1 Mbps
+Student-to-Router Delay: 5 ms
+Router-to-Server Delay: 10 ms
+Packet Size: 512 bytes
+Traffic Interval: 0.02 seconds
+Traffic Duration: 9 seconds
+
+Packets Sent: 2255
+Packets Received: 2247
+Packets Dropped: 8
+Data Received: 1150464 bytes
+
+Packet Delivery Ratio: 99.65%
+Packet Loss Ratio: 0.35%
+Throughput: 1022.63 Kbps
+Average End-to-End Delay: 134.446 ms

@@ -1,0 +1,83 @@
+PROJECT: Network Performance Analysis of University E-Learning System
+
+ALGORITHM AND PROTOCOL COMPARISON
+
+1. TCP VS UDP
+
+TCP:
+Packets Sent: 1626
+Packets Received: 1626
+Packets Dropped: 0
+Packet Delivery Ratio: 100%
+Throughput: 797.37 Kbps
+Average Delay: 94.235 ms
+
+UDP:
+Packets Sent: 451
+Packets Received: 451
+Packets Dropped: 0
+Packet Delivery Ratio: 100%
+Throughput: 205.26 Kbps
+Average Delay: 93.520 ms
+
+Observation:
+TCP provided reliable delivery using acknowledgements and
+retransmission mechanisms. UDP transmitted data without
+connection-oriented reliability mechanisms. The traffic
+generation methods differed between these experiments.
+
+2. TCP SLIDING WINDOW ANALYSIS
+
+Window Size    Packets Received    Throughput    Delay
+-------------------------------------------------------
+4              967                 474.02 Kbps   21.634 ms
+8              1926                944.57 Kbps   21.661 ms
+16             2029                995.11 Kbps   54.829 ms
+
+Observation:
+Increasing the TCP sender window increased throughput in
+this experiment. Window size 16 achieved the highest
+throughput but also produced higher average delay.
+
+3. GO-BACK-N ARQ
+
+Initial Transmission Attempts: 8
+Successfully Transmitted Initially: 7
+Packets Deliberately Lost: 1
+Packets Retransmitted: 4
+Out-of-Order Packets Discarded: 3
+Duplicate ACKs: 3
+Timeouts: 1
+Total Packets Delivered: 8
+
+Observation:
+When a packet was lost, the receiver discarded subsequent
+out-of-order packets. After a timeout, the sender retransmitted
+all outstanding packets. All 8 packets were eventually delivered.
+
+4. LEAKY BUCKET ALGORITHM
+
+Total Incoming Packets: 13
+Packets Accepted: 10
+Packets Dropped: 3
+Packets Transmitted: 10
+Packets Remaining: 0
+Bucket Capacity: 4 Packets
+Leakage Interval: 0.5 Seconds
+
+Observation:
+The Leaky Bucket algorithm controlled outgoing traffic
+at a constant rate. Packets arriving when the bucket was
+full were dropped. All accepted packets were transmitted.
+
+OVERALL CONCLUSION
+
+The experiments demonstrate different networking concepts:
+- TCP and UDP demonstrate transport-layer communication.
+- TCP Sliding Window demonstrates flow control.
+- Go-Back-N ARQ demonstrates reliable data transmission.
+- Leaky Bucket demonstrates traffic shaping.
+
+These experiments use different simulation models and
+metrics. Their numerical results should not be treated
+as a direct performance ranking.

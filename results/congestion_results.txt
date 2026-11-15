@@ -1,0 +1,68 @@
+PROJECT: Network Performance Analysis of University E-Learning System
+
+EXPERIMENT: Student Load and Network Congestion Analysis
+
+2-STUDENT SIMULATION
+
+Bottleneck Bandwidth: 1 Mbps
+Packet Size: 512 bytes
+Traffic Interval: 0.02 seconds
+Traffic Duration: 9 seconds
+
+Packets Sent: 902
+Packets Received: 902
+Packets Dropped: 0
+Data Received: 461824 bytes
+
+Packet Delivery Ratio: 100%
+Packet Loss Ratio: 0%
+Throughput: 410.51 Kbps
+Average End-to-End Delay: 23.192 ms
+5-STUDENT SIMULATION
+
+Bottleneck Bandwidth: 1 Mbps
+Packet Size: 512 bytes
+Traffic Interval: 0.02 seconds
+Traffic Duration: 9 seconds
+
+Packets Sent: 2255
+Packets Received: 2247
+Packets Dropped: 8
+Data Received: 1150464 bytes
+
+Packet Delivery Ratio: 99.65%
+Packet Loss Ratio: 0.35%
+Throughput: 1022.63 Kbps
+Average End-to-End Delay: 134.446 ms
+10-STUDENT SIMULATION
+
+Bottleneck Bandwidth: 1 Mbps
+Packet Size: 512 bytes
+Traffic Interval: 0.02 seconds
+Traffic Duration: 9 seconds
+
+Packets Sent: 4510
+Packets Received: 2247
+Packets Dropped: 2263
+Data Received: 1150464 bytes
+
+Packet Delivery Ratio: 49.82%
+Packet Loss Ratio: 50.18%
+Throughput: 1022.63 Kbps
+Average End-to-End Delay: 208.304 ms
+15-STUDENT SIMULATION
+
+Bottleneck Bandwidth: 1 Mbps
+Packet Size: 512 bytes
+Traffic Interval: 0.02 seconds
+Traffic Duration: 9 seconds
+
+Packets Sent: 6765
+Packets Received: 2247
+Packets Dropped: 4518
+Data Received: 1150464 bytes
+
+Packet Delivery Ratio: 33.22%
+Packet Loss Ratio: 66.78%
+Throughput: 1022.63 Kbps
+Average End-to-End Delay: 209.158 ms

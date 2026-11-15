@@ -1,0 +1,42 @@
+PROJECT: Network Performance Analysis of University E-Learning System
+
+SIMULATION: Sliding Window TCP Analysis
+Topology: Student -> Router -> Server
+Protocol: TCP NewReno
+Packet Size: 512 bytes
+Student-to-Router Bandwidth: 2 Mbps
+Router-to-Server Bandwidth: 1 Mbps
+Simulation Duration: 10 seconds
+Traffic Duration: 9 seconds
+
+WINDOW SIZE: 4
+Packets Sent: 967
+Packets Received: 967
+Packets Dropped: 0
+PDR: 100%
+PLR: 0%
+Throughput: 474.02 Kbps
+Average End-to-End Delay: 21.634 ms
+
+WINDOW SIZE: 8
+Packets Sent: 1926
+Packets Received: 1926
+Packets Dropped: 0
+PDR: 100%
+PLR: 0%
+Throughput: 944.57 Kbps
+Average End-to-End Delay: 21.661 ms
+
+WINDOW SIZE: 16
+Packets Sent: 2029
+Packets Received: 2029
+Packets Dropped: 0
+PDR: 100%
+PLR: 0%
+Throughput: 995.11 Kbps
+Average End-to-End Delay: 54.829 ms
+
+OBSERVATION:
+Increasing the TCP window size increased throughput in this
+simulation. Window size 16 achieved the highest throughput,
+while also showing higher average end-to-end delay.
